@@ -1,13 +1,9 @@
-import { AboutContent } from "@/components/About/AboutContent";
-import BgGlow from "@/components/ui/BgGlow";
-import { SocialLinks } from "@/components/global/SocialLinks";
+import React from 'react'
 
-export default function About() {
+export default function page() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen w-full font-inter relative pt-24">
-      <BgGlow />
-      <AboutContent />
-      <SocialLinks />
+    <div>
+      About Page
     </div>
-  );
+  )
 }
